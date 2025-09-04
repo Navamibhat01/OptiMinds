@@ -1,0 +1,20 @@
+{
+  "manifest_version": 3,
+  "name": "Aura - Sustainability Insights",
+  "version": "1.0",
+  "description": "Shows sustainability insights in a sidebar panel.",
+  "side_panel": {
+    "default_path": "popup.html"
+  },
+  "action": {
+    "default_title": "Aura - Sustainability Insights"
+  },
+  "permissions": ["sidePanel"],
+  "background": {
+    "service_worker": "background.js"
+  }
+}
+
+
+
+
